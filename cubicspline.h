@@ -7,7 +7,7 @@ namespace CubicSpline {
 
 
 	template<typename T>
-	T Cubic(double f, T x1, T y1, T x2, T y2, T m1, T m2) {
+	T Cubic(double f, double x1, T y1, double x2, T y2, T m1, T m2) {
 		m1 *= x2 - x1;
 		m2 *= x2 - x1;
 		T v = y2 - y1;
